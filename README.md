@@ -1,5 +1,5 @@
-Plasma Applet Template
-======================
+Steam plasmoid
+==============
 
 ![Screenshot](/screenshot.png?raw=true)
 
