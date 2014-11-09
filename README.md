@@ -1,6 +1,8 @@
 Plasma Applet Template
 ======================
 
+![Screenshot](/screenshot.png?raw=true)
+
 Build instructions
 ------------------
 
