@@ -1,1 +1,7 @@
 build
+arch/pkg
+arch/src
+arch/*.pkg.tar.xz
+arch/*.src.tar.gz
+arch/v*.*.tar.gz
+
