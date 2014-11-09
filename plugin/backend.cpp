@@ -1,5 +1,3 @@
-//https://projects.kde.org/projects/kde/workspace/plasma-desktop/repository/revisions/master/entry/applets/taskmanager/plugin/backend.cpp
-
 #include "backend.h"
 #include "texttoken.h"
 

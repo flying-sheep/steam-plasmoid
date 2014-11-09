@@ -4,39 +4,38 @@ Plasma Applet Template
 Build instructions
 ------------------
 
+```bash
 cd /where/your/applet/is/generated
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=$KDEDIRS .. 
-make 
-make install
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local ..
+make
+```
 
-(your $KDEDIRS is where you install your KDE 4, set this variable in your .bashrc file)
+### Now either install globally…
 
-Restart plasma to load the applet 
-(in a terminal type: 
-kquitapp plasma-desktop 
-and then
-plasma-desktop)
+```bash
+sudo make install
+kbuildsycoca5
 
-or view it with 
-plasmoidviewer YourAppletName
+kquitapp5 plasmashell
+plasmashell
+```
 
-You might need to run kbuildsycoca4
-in order to get the .desktop file recognized.
+### …or run it in a temporary installation
+
+```bash
+./plasmoid-tempinstall-run.sh steam
+```
 
 Tutorials and resources
 -----------------------
-The explanation of the template
-https://techbase.kde.org/Development/Tutorials/Plasma2/QML2/GettingStarted
+* [The explanation of the template](https://techbase.kde.org/Development/Tutorials/Plasma2/QML2/GettingStarted)
+* [Plasma techbase pages](http://techbase.kde.org/Projects/Plasma2)
+* [Plasma QML API explained](http://techbase.kde.org/Development/Tutorials/Plasma2/QML2/API)
+* [C++ Models in QML](http://qt-project.org/doc/qt-5/qtquick-modelviewsdata-cppmodels.html)
 
-Plasma techbase pages
-http://techbase.kde.org/Projects/Plasma2
-
-Plasma QML API explained
-http://techbase.kde.org/Development/Tutorials/Plasma2/QML2/API
 
 Where to get stuff from
 -----------------------
-
-Icons: http://forums.steampowered.com/forums/showthread.php?t=3128676
+* [Icons](http://forums.steampowered.com/forums/showthread.php?t=3128676)

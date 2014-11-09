@@ -1,5 +1,3 @@
-// http://qt-project.org/doc/qt-5/qtquick-modelviewsdata-cppmodels.html
-
 #include "gamesmodel.h"
 
 GameInfo::GameInfo(QString & name, uint & appID): m_name(name), m_appID(appID) {}
