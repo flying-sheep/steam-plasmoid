@@ -27,7 +27,7 @@ plasmashell
 ### …or run it in a temporary installation
 
 ```bash
-./plasmoid-tempinstall-run.sh steam
+./plasmoid-test.sh
 ```
 
 Tutorials and resources
